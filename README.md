@@ -1,6 +1,6 @@
 # kadai2
 
-# myled
+# kadai2
 2021年度ロボットシステム学の課題2で
 https://ryuichiueda.github.io/robosys2020/lesson10_ros.html#/20
 
@@ -36,37 +36,24 @@ OS : ubuntu 20.04 server
 # プログラムの実行方法
 ## ［インストール］
 ```
-git clone git@github.com:hellocit/myled.git
+$ git clone git@github.com:hellocit/kadai2.git
 
-cd myled
+$ cd ~/kadai2/scripts/
 
-make
-
-sudo insmod myled.ko
-
-sudo chmod 666 /dev/myled0
+$ chmod +x motor.py
 ```
 ## ［アンインストール］
 
 ```
-sudo rmmod myled
-
-make clean
-```
 
 ## ［実行］
-## LEDを点灯するコマンド
-```
-echo 1 > /dev/myled0
-```
-## LEDを消灯するコマンド
-```
-echo 0 > /dev/myled0
-```
+
+
+
 
 # 結果
-https://www.youtube.com/watch?v=qx7kacyVDzc
+
 # ライセンス
-https://github.com/hellocit/myled/blob/main/COPYING
+https://github.com/hellocit/kadai2/blob/main/LICENSE
 # 作成するにあたり引用したプログラム
-https://github.com/ryuichiueda/robosys_device_drivers/blob/master/myled10.c
+https://ryuichiueda.github.io/robosys2020/lesson10_ros.html#/20
