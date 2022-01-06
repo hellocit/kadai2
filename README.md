@@ -2,11 +2,12 @@
 
 # myled
 2021年度ロボットシステム学の課題2で
-https://github.com/ryuichiueda/robosys_device_drivers/blob/master/myled10.c
-を引用して作成したデバイスドライバです。
+https://ryuichiueda.github.io/robosys2020/lesson10_ros.html#/20
 
-echo 1 > /dev/myled0　で点灯し、
-echo 0 > /dev/myled0　で消灯します。
+
+
+
+三つのプログラムを参考にして作成したデバイスドライバです。
 
 # 動作環境
 Raspberry Pi 4 Model B
@@ -18,13 +19,18 @@ OS : ubuntu 20.04 server
 
 ・Raspberry Pi 4 Model B × 1
 
-・LED × 1
+・モータ用電源　1.5V使用済み単三電池 × 3
 
-・抵抗400Ω × 4
+・ＴＢ６７Ｈ４５０モータドライバモジュール× 1
 
 ・ブレッドボード × 1
 
-・ジャンパー線（オス-メス）× 2
+・ジャンパー線（オス-メス）× 5
+
+・ジャンパー線（オス-オス）× 1
+
+・サンハヤト製ブレッドボード用ジャンプワイヤ × 2
+
 # 回路図
 ![robosis](https://user-images.githubusercontent.com/91714744/145830010-5c700ab9-eeb2-4f1c-ba59-2d3dc1206ba5.png)
 # プログラムの実行方法
