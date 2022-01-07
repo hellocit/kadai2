@@ -4,11 +4,7 @@ from std_msgs.msg import Int32
 
 def cb(message):
     rospy.loginfo(message.data)
-    #if data % 3 == 0:
-     #   print("sannnobaisuu")
-      #  rospy.loginfo(message.data*2)
-    #else:
-     #   rospy.loginfo(message.data*2)
+
 if __name__ == '__main__':
         rospy.init_node('twice')
         sub = rospy.Subscriber('count_up', Int32, cb)
