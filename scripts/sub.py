@@ -2,14 +2,14 @@
 import rospy
 from std_msgs.msg import Int32
 
-rospy.init_node('count')                                # ノード名「count」に設定
-pub = rospy.Publisher('count_up', Int32, queue_size=1)  # パブリッシャ「count_up」を作成
-rate = rospy.Rate(10)                                   # 10Hzで実行
-n = 0
-while not rospy.is_shutdown():
-        n += 1
-        if n % 3 == 0:
-            print ("これはサァンのばいすうぅーーー")
-            print ('nは%dです' % n)
-        pub.publish(n)
-        rate.sleep()
+def cb(message):
+    rospy.loginfo(message.data)
+    #if data % 3 == 0:
+     #   print("sannnobaisuu")
+      #  rospy.loginfo(message.data*2)
+    #else:
+     #   rospy.loginfo(message.data*2)
+if __name__ == '__main__':
+        rospy.init_node('twice')
+        sub = rospy.Subscriber('count_up', Int32, cb)
+        rospy.spin()
