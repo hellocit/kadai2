@@ -8,5 +8,8 @@ rate = rospy.Rate(10)                                   # 10Hzで実行
 n = 0
 while not rospy.is_shutdown():
         n += 1
+        if n % 3 == 0:
+            print ("これはサァンのばいすうぅーーー")
+        
         pub.publish(n)
         rate.sleep()
