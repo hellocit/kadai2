@@ -10,6 +10,6 @@ while not rospy.is_shutdown():
         n += 1
         if n % 3 == 0:
             print ("これはサァンのばいすうぅーーー")
-        
+            print ('nは%dです' % n)
         pub.publish(n)
         rate.sleep()
