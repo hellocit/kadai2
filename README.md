@@ -39,7 +39,7 @@ $ rosrun kadai2 count.py
 
 
 # 結果
-https://youtu.be/yeG7RaXGBVM
+https://youtu.be/OLydI3t371A
 # ライセンス
 https://github.com/hellocit/kadai2/blob/main/LICENSE
 # 改変し、作成するにあたり引用したプログラム
