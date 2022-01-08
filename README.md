@@ -18,9 +18,9 @@ $ git clone git@github.com:hellocit/kadai2.git
 $ cd ~/kadai2/scripts/
 
 $ chmod +x count.py
-```
-$ chmod +x sub.py
 
+$ chmod +x sub.py
+```
 ## ［実行］
 事前に二つの端末を開きます。rosrunの順番は端末1→端末2です。
 ***
@@ -41,7 +41,7 @@ $ rosrun kadai2 count.py
 # ライセンス
 https://github.com/hellocit/kadai2/blob/main/LICENSE
 # 改変し、作成するにあたり引用したプログラム
-https://ryuichiueda.github.io/robosys2020/lesson10_ros.html#/20
+https://ryuichiueda.github.io/robosys2020/lesson10_ros.html#/20  
 https://ryuichiueda.github.io/robosys2020/lesson10_ros.html#/22
 # 参考
 用語を調べたサイト  
