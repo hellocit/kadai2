@@ -5,9 +5,9 @@ https://ryuichiueda.github.io/robosys2020/lesson10_ros.html#/22
 上記二つのプログラムを引用かつ改変し作成したデバイスドライバです。
 
 # 動作環境
--Raspberry Pi 4 Model B
+・Raspberry Pi 4 Model B
 
--OS : ubuntu 20.04 server
+・OS : ubuntu 20.04 server
 
 
 # プログラムの実行方法
