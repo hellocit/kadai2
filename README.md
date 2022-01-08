@@ -37,11 +37,11 @@ https://github.com/hellocit/kadai2/blob/main/LICENSE
 https://ryuichiueda.github.io/robosys2020/lesson10_ros.html#/20
 https://ryuichiueda.github.io/robosys2020/lesson10_ros.html#/22
 # 参考
-用語を調べたサイト\\
-https://raspimouse-sim-tutorial.gitbook.io/project/ros_tutorial/appendix/ros_word
-Pythonを調べたサイト\\
-https://www.sejuku.net/blog/21909
-https://www.delftstack.com/ja/howto/python/python-print-string-and-variable/
+用語を調べたサイト  
+https://raspimouse-sim-tutorial.gitbook.io/project/ros_tutorial/appendix/ros_word  
+Pythonを調べたサイト  
+https://www.sejuku.net/blog/21909  
+https://www.delftstack.com/ja/howto/python/python-print-string-and-variable/  
 
 
 
