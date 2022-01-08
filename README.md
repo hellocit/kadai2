@@ -1,6 +1,6 @@
 # kadai2
 2021年度ロボットシステム学の課題2で  
-https://ryuichiueda.github.io/robosys2020/lesson10_ros.html#/20
+https://ryuichiueda.github.io/robosys2020/lesson10_ros.html#/20  
 https://ryuichiueda.github.io/robosys2020/lesson10_ros.html#/22  
 上記二つのプログラムを引用かつ改変し作成したデバイスドライバです。
 
@@ -19,10 +19,20 @@ $ cd ~/kadai2/scripts/
 
 $ chmod +x count.py
 ```
+$ chmod +x sub.py
 
 ## ［実行］
+事前に二つの端末を開きます。
+***
+端末1
+'''
+a
+'''
 
-
+端末2
+```
+aa
+```
 
 
 # 結果
