@@ -22,16 +22,17 @@ $ chmod +x count.py
 $ chmod +x sub.py
 
 ## ［実行］
-事前に二つの端末を開きます。
+事前に二つの端末を開きます。rosrunの順番は端末1→端末2です。
 ***
 端末1
-'''
-a
-'''
+```
+$ roscore &
+$ rosrun kadai2 sub.py
+```
 
 端末2
 ```
-aa
+$ rosrun kadai2 count.py
 ```
 
 
