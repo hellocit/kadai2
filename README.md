@@ -1,8 +1,8 @@
 # kadai2
 2021年度ロボットシステム学の課題2で
-https://ryuichiueda.github.io/robosys2020/lesson10_ros.html#/20と
-https://ryuichiueda.github.io/robosys2020/lesson10_ros.html#/22の
-二つのプログラムを引用かつ改変し作成したデバイスドライバです。
+https://ryuichiueda.github.io/robosys2020/lesson10_ros.html#/20  と
+https://ryuichiueda.github.io/robosys2020/lesson10_ros.html#/22  
+の二つのプログラムを引用かつ改変し作成したデバイスドライバです。
 
 # 動作環境
 Raspberry Pi 4 Model B
