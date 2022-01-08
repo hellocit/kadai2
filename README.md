@@ -1,11 +1,8 @@
 # kadai2
 2021年度ロボットシステム学の課題2で
 https://ryuichiueda.github.io/robosys2020/lesson10_ros.html#/20
-
-
-
-
-三つのプログラムを参考にして作成したデバイスドライバです。
+https://ryuichiueda.github.io/robosys2020/lesson10_ros.html#/22
+二つのプログラムを引用かつ改変し作成したデバイスドライバです。
 
 # 動作環境
 Raspberry Pi 4 Model B
@@ -16,18 +13,6 @@ OS : ubuntu 20.04 server
 
 
 ・Raspberry Pi 4 Model B × 1
-
-・モータ用電源　1.5V使用済み単三電池 × 3
-
-・ＴＢ６７Ｈ４５０モータドライバモジュール× 1
-
-・ブレッドボード × 1
-
-・ジャンパー線（オス-メス）× 5
-
-・ジャンパー線（オス-オス）× 1
-
-・サンハヤト製ブレッドボード用ジャンプワイヤ × 2
 
 # 回路図
 ![robosis](https://user-images.githubusercontent.com/91714744/145830010-5c700ab9-eeb2-4f1c-ba59-2d3dc1206ba5.png)
@@ -53,5 +38,9 @@ $ chmod +x motor.py
 
 # ライセンス
 https://github.com/hellocit/kadai2/blob/main/LICENSE
-# 作成するにあたり引用したプログラム
+# 作成、改変するにあたり引用したプログラム
 https://ryuichiueda.github.io/robosys2020/lesson10_ros.html#/20
+https://ryuichiueda.github.io/robosys2020/lesson10_ros.html#/22
+# 参考
+https://raspimouse-sim-tutorial.gitbook.io/project/ros_tutorial/appendix/ros_word
+
