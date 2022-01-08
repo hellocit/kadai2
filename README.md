@@ -2,7 +2,9 @@
 2021年度ロボットシステム学の課題2で  
 https://ryuichiueda.github.io/robosys2020/lesson10_ros.html#/20  
 https://ryuichiueda.github.io/robosys2020/lesson10_ros.html#/22  
-上記二つのプログラムを引用かつ改変し作成したデバイスドライバです。
+上記二つのプログラムを引用かつ改変し作成しました。
+実行すると3の倍数だけがcount.pyで表示されます。
+少し待つと世界が平和になるものが表示されるかも...
 
 # 動作環境
 ・Raspberry Pi 4 Model B
