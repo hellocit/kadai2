@@ -51,7 +51,8 @@ https://raspimouse-sim-tutorial.gitbook.io/project/ros_tutorial/appendix/ros_wor
 Pythonを調べたサイト  
 https://www.sejuku.net/blog/21909  
 https://www.delftstack.com/ja/howto/python/python-print-string-and-variable/  
-
+ヒント  
+http://www.edu.i.hosei.ac.jp/~sigesada/kyouzai/mojicodehenkan.html  
 
 
 
